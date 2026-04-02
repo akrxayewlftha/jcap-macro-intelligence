@@ -1,0 +1,150 @@
+{
+  "rare_mentions": [
+    {
+      "entity": "PBoC",
+      "category": "central_banks",
+      "total_mentions": 2,
+      "high_priority_mentions": 0,
+      "signal_strength": 0.0,
+      "avg_sentiment": -0.001,
+      "example_tweets": [
+        "PBOC to make use of various tools in monetary policy controls",
+        "PBOC: To maintain a moderately loose monetary policy with stronger counter-cyclical adjustments"
+      ],
+      "first_seen": "2026-03-31 09:13:01+00:00",
+      "last_seen": "2026-03-31 09:13:20+00:00"
+    },
+    {
+      "entity": "Bessent",
+      "category": "figures",
+      "total_mentions": 5,
+      "high_priority_mentions": 0,
+      "signal_strength": 0.0,
+      "avg_sentiment": 0.102,
+      "example_tweets": [
+        "US Treasury Secretary Bessent, on Iran and oil: Any supply will be helpful - Fox News.",
+        "US Treasury Secretary Bessent: Unsanctioned Russia and Iran oil is 'on the water'"
+      ],
+      "first_seen": "2026-03-30 12:33:12+00:00",
+      "last_seen": "2026-03-30 12:37:00+00:00"
+    },
+    {
+      "entity": "Williams",
+      "category": "figures",
+      "total_mentions": 3,
+      "high_priority_mentions": 0,
+      "signal_strength": 0.0,
+      "avg_sentiment": 0.235,
+      "example_tweets": [
+        "Fed's Williams: Tariffs and Iran war will increase headline inflation.\n\nWilliams expects higher headline inflation in the near term due to war and tariffs\n\nFed's Williams expects US GDP to be 2.5% this year amid help from various factors.\n\nFed's Williams: No signs of second-round inflation impact from tariffs.\n\nFed's Williams: Job market is sending mixed signals",
+        "Fed's Williams: War could both increase inflation and depress growth."
+      ],
+      "first_seen": "2026-03-30 20:09:17+00:00",
+      "last_seen": "2026-03-30 20:20:31+00:00"
+    },
+    {
+      "entity": "Housing",
+      "category": "indicators",
+      "total_mentions": 1,
+      "high_priority_mentions": 0,
+      "signal_strength": 0.0,
+      "avg_sentiment": 0.437,
+      "example_tweets": [
+        "JAPANESE HOUSING STARTS YOY ACTUAL -4.9% (FORECAST -4.5%, PREVIOUS -0.4%) $MACRO"
+      ],
+      "first_seen": "2026-03-31 05:09:39+00:00",
+      "last_seen": "2026-03-31 05:09:39+00:00"
+    },
+    {
+      "entity": "PPI",
+      "category": "indicators",
+      "total_mentions": 1,
+      "high_priority_mentions": 0,
+      "signal_strength": 0.0,
+      "avg_sentiment": -0.242,
+      "example_tweets": [
+        "French PPI MoM Actual -0.2% (Forecast -, Previous 0.5%)"
+      ],
+      "first_seen": "2026-03-31 06:46:34+00:00",
+      "last_seen": "2026-03-31 06:46:34+00:00"
+    },
+    {
+      "entity": "Crypto",
+      "category": "assets",
+      "total_mentions": 2,
+      "high_priority_mentions": 0,
+      "signal_strength": 0.0,
+      "avg_sentiment": -0.074,
+      "example_tweets": [
+        "Crypto Fear &amp; Greed Index: 13/100 - Extreme Fear https://t.co/tEE3vx4Pvx",
+        "Crypto Fear &amp; Greed Index: 8/100 - Extreme Fear https://t.co/Lymlemx8kE"
+      ],
+      "first_seen": "2026-03-27 14:19:18+00:00",
+      "last_seen": "2026-03-30 14:19:27+00:00"
+    },
+    {
+      "entity": "EUR",
+      "category": "assets",
+      "total_mentions": 3,
+      "high_priority_mentions": 0,
+      "signal_strength": 0.0,
+      "avg_sentiment": -0.082,
+      "example_tweets": [
+        "Euro area March industrial confidence -7.0; est. -8.0",
+        "Euro area March services confidence 4.9; est. 4.0"
+      ],
+      "first_seen": "2026-03-30 09:00:49+00:00",
+      "last_seen": "2026-03-30 09:01:37+00:00"
+    }
+  ],
+  "unusual_cooccurrences": [
+    {
+      "entity_1": "BoJ",
+      "entity_2": "CPI",
+      "cooc_count": 3,
+      "lift": 8.02,
+      "is_unusual": true
+    },
+    {
+      "entity_1": "CPI",
+      "entity_2": "GDP",
+      "cooc_count": 4,
+      "lift": 4.93,
+      "is_unusual": true
+    }
+  ],
+  "narrative_shifts": [
+    {
+      "index": 359,
+      "datetime": "2026-03-30 14:44:04+00:00",
+      "date_str": "2026-03-30",
+      "hour": 14,
+      "sentiment_before": -0.224,
+      "sentiment_after": 0.23,
+      "delta": 0.454,
+      "direction": "positive_shift",
+      "pivot_tweet": "Fed's Powell: I'd be in the camp that there is something to that."
+    },
+    {
+      "index": 121,
+      "datetime": "2026-03-27 16:50:54+00:00",
+      "date_str": "2026-03-27",
+      "hour": 16,
+      "sentiment_before": 0.295,
+      "sentiment_after": -0.124,
+      "delta": -0.419,
+      "direction": "negative_shift",
+      "pivot_tweet": "US Secretary of State Rubio: sanctions relief on Russian crude is not a permanent policy for United States."
+    }
+  ],
+  "n_rare_signals": 7,
+  "n_unusual_cooc": 2,
+  "n_shifts": 2,
+  "top_weak_signals": [
+    "PBoC",
+    "Bessent",
+    "Williams",
+    "Housing",
+    "PPI"
+  ]
+}

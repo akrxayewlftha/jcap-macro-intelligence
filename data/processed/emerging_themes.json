@@ -1,0 +1,346 @@
+{
+  "emerging_themes": [
+    {
+      "entity": "Powell",
+      "category": "figures",
+      "velocity": 93189.96
+    },
+    {
+      "entity": "BoJ",
+      "category": "central_banks",
+      "velocity": 21505.38
+    },
+    {
+      "entity": "Bessent",
+      "category": "figures",
+      "velocity": 17921.15
+    },
+    {
+      "entity": "US Treasuries",
+      "category": "assets",
+      "velocity": 17921.15
+    },
+    {
+      "entity": "Cut",
+      "category": "rate_actions",
+      "velocity": 14336.92
+    },
+    {
+      "entity": "Williams",
+      "category": "figures",
+      "velocity": 10752.69
+    },
+    {
+      "entity": "EUR",
+      "category": "assets",
+      "velocity": 10752.69
+    },
+    {
+      "entity": "PBoC",
+      "category": "central_banks",
+      "velocity": 7168.46
+    },
+    {
+      "entity": "Hike",
+      "category": "rate_actions",
+      "velocity": 3.91
+    },
+    {
+      "entity": "Hold",
+      "category": "rate_actions",
+      "velocity": 3.12
+    },
+    {
+      "entity": "GDP",
+      "category": "indicators",
+      "velocity": 2.6
+    },
+    {
+      "entity": "Fed",
+      "category": "central_banks",
+      "velocity": 1.92
+    },
+    {
+      "entity": "Oil",
+      "category": "assets",
+      "velocity": 1.51
+    }
+  ],
+  "declining_themes": [
+    {
+      "entity": "ECB",
+      "category": "central_banks",
+      "velocity": 0.2
+    }
+  ],
+  "velocity_by_category": {
+    "central_banks": [
+      {
+        "entity": "BoJ",
+        "category": "central_banks",
+        "count_old": 0,
+        "count_recent": 6,
+        "freq_old": 0.0,
+        "freq_recent": 0.0215,
+        "velocity": 21505.38,
+        "is_emerging": true,
+        "is_declining": false
+      },
+      {
+        "entity": "PBoC",
+        "category": "central_banks",
+        "count_old": 0,
+        "count_recent": 2,
+        "freq_old": 0.0,
+        "freq_recent": 0.0072,
+        "velocity": 7168.46,
+        "is_emerging": true,
+        "is_declining": false
+      },
+      {
+        "entity": "Fed",
+        "category": "central_banks",
+        "count_old": 22,
+        "count_recent": 54,
+        "freq_old": 0.1009,
+        "freq_recent": 0.1935,
+        "velocity": 1.92,
+        "is_emerging": true,
+        "is_declining": false
+      },
+      {
+        "entity": "ECB",
+        "category": "central_banks",
+        "count_old": 12,
+        "count_recent": 3,
+        "freq_old": 0.055,
+        "freq_recent": 0.0108,
+        "velocity": 0.2,
+        "is_emerging": false,
+        "is_declining": true
+      }
+    ],
+    "figures": [
+      {
+        "entity": "Powell",
+        "category": "figures",
+        "count_old": 0,
+        "count_recent": 26,
+        "freq_old": 0.0,
+        "freq_recent": 0.0932,
+        "velocity": 93189.96,
+        "is_emerging": true,
+        "is_declining": false
+      },
+      {
+        "entity": "Bessent",
+        "category": "figures",
+        "count_old": 0,
+        "count_recent": 5,
+        "freq_old": 0.0,
+        "freq_recent": 0.0179,
+        "velocity": 17921.15,
+        "is_emerging": true,
+        "is_declining": false
+      },
+      {
+        "entity": "Williams",
+        "category": "figures",
+        "count_old": 0,
+        "count_recent": 3,
+        "freq_old": 0.0,
+        "freq_recent": 0.0108,
+        "velocity": 10752.69,
+        "is_emerging": true,
+        "is_declining": false
+      },
+      {
+        "entity": "Trump",
+        "category": "figures",
+        "count_old": 17,
+        "count_recent": 27,
+        "freq_old": 0.078,
+        "freq_recent": 0.0968,
+        "velocity": 1.24,
+        "is_emerging": false,
+        "is_declining": false
+      }
+    ],
+    "indicators": [
+      {
+        "entity": "Housing",
+        "category": "indicators",
+        "count_old": 0,
+        "count_recent": 1,
+        "freq_old": 0.0,
+        "freq_recent": 0.0036,
+        "velocity": 3584.23,
+        "is_emerging": false,
+        "is_declining": false
+      },
+      {
+        "entity": "PPI",
+        "category": "indicators",
+        "count_old": 0,
+        "count_recent": 1,
+        "freq_old": 0.0,
+        "freq_recent": 0.0036,
+        "velocity": 3584.23,
+        "is_emerging": false,
+        "is_declining": false
+      },
+      {
+        "entity": "GDP",
+        "category": "indicators",
+        "count_old": 3,
+        "count_recent": 10,
+        "freq_old": 0.0138,
+        "freq_recent": 0.0358,
+        "velocity": 2.6,
+        "is_emerging": true,
+        "is_declining": false
+      },
+      {
+        "entity": "CPI",
+        "category": "indicators",
+        "count_old": 15,
+        "count_recent": 16,
+        "freq_old": 0.0688,
+        "freq_recent": 0.0573,
+        "velocity": 0.83,
+        "is_emerging": false,
+        "is_declining": false
+      }
+    ],
+    "assets": [
+      {
+        "entity": "US Treasuries",
+        "category": "assets",
+        "count_old": 0,
+        "count_recent": 5,
+        "freq_old": 0.0,
+        "freq_recent": 0.0179,
+        "velocity": 17921.15,
+        "is_emerging": true,
+        "is_declining": false
+      },
+      {
+        "entity": "EUR",
+        "category": "assets",
+        "count_old": 0,
+        "count_recent": 3,
+        "freq_old": 0.0,
+        "freq_recent": 0.0108,
+        "velocity": 10752.69,
+        "is_emerging": true,
+        "is_declining": false
+      },
+      {
+        "entity": "Oil",
+        "category": "assets",
+        "count_old": 15,
+        "count_recent": 29,
+        "freq_old": 0.0688,
+        "freq_recent": 0.1039,
+        "velocity": 1.51,
+        "is_emerging": true,
+        "is_declining": false
+      },
+      {
+        "entity": "Crypto",
+        "category": "assets",
+        "count_old": 1,
+        "count_recent": 1,
+        "freq_old": 0.0046,
+        "freq_recent": 0.0036,
+        "velocity": 0.78,
+        "is_emerging": false,
+        "is_declining": false
+      },
+      {
+        "entity": "USD",
+        "category": "assets",
+        "count_old": 1,
+        "count_recent": 1,
+        "freq_old": 0.0046,
+        "freq_recent": 0.0036,
+        "velocity": 0.78,
+        "is_emerging": false,
+        "is_declining": false
+      },
+      {
+        "entity": "Equities",
+        "category": "assets",
+        "count_old": 4,
+        "count_recent": 3,
+        "freq_old": 0.0183,
+        "freq_recent": 0.0108,
+        "velocity": 0.59,
+        "is_emerging": false,
+        "is_declining": false
+      }
+    ],
+    "rate_actions": [
+      {
+        "entity": "Cut",
+        "category": "rate_actions",
+        "count_old": 0,
+        "count_recent": 4,
+        "freq_old": 0.0,
+        "freq_recent": 0.0143,
+        "velocity": 14336.92,
+        "is_emerging": true,
+        "is_declining": false
+      },
+      {
+        "entity": "QT",
+        "category": "rate_actions",
+        "count_old": 0,
+        "count_recent": 1,
+        "freq_old": 0.0,
+        "freq_recent": 0.0036,
+        "velocity": 3584.23,
+        "is_emerging": false,
+        "is_declining": false
+      },
+      {
+        "entity": "Hike",
+        "category": "rate_actions",
+        "count_old": 1,
+        "count_recent": 5,
+        "freq_old": 0.0046,
+        "freq_recent": 0.0179,
+        "velocity": 3.91,
+        "is_emerging": true,
+        "is_declining": false
+      },
+      {
+        "entity": "Hold",
+        "category": "rate_actions",
+        "count_old": 1,
+        "count_recent": 4,
+        "freq_old": 0.0046,
+        "freq_recent": 0.0143,
+        "velocity": 3.12,
+        "is_emerging": true,
+        "is_declining": false
+      }
+    ]
+  },
+  "volume_by_day": {
+    "2026-03-27": 198,
+    "2026-03-28": 20,
+    "2026-03-29": 28,
+    "2026-03-30": 213,
+    "2026-03-31": 38
+  },
+  "top_emerging": [
+    "Powell",
+    "BoJ",
+    "Bessent",
+    "US Treasuries",
+    "Cut"
+  ],
+  "n_emerging": 13,
+  "n_declining": 1
+}

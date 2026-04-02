@@ -1,0 +1,42 @@
+# Environnement Python
+venv/
+env/
+.env
+*.pyc
+__pycache__/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Fichiers binaires régénérables (embeddings numpy)
+data/processed/*.npy
+data/processed/cache/
+
+# Fichiers intermédiaires du pipeline (tweets_final.json est gardé)
+data/processed/tweets.json
+data/processed/tweets.parquet
+data/processed/corpus_topics.json
+data/processed/tweet_topics.json
+
+# Fichiers système
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+
+# Config Claude Code
+.claude/
+.project_config/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log

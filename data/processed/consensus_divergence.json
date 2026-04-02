@@ -1,0 +1,225 @@
+{
+  "consensus": [
+    {
+      "entity": "Fed",
+      "category": "central_banks",
+      "tweet_sentiment": "neutral",
+      "tweet_score": 0.009,
+      "tweet_count": 76,
+      "tweet_std": 0.341,
+      "corpus_sentiment": "neutral",
+      "corpus_score": 0.073,
+      "corpus_count": 8,
+      "divergence_score": 0.064,
+      "signal_type": "consensus"
+    },
+    {
+      "entity": "Trump",
+      "category": "figures",
+      "tweet_sentiment": "neutral",
+      "tweet_score": 0.053,
+      "tweet_count": 44,
+      "tweet_std": 0.331,
+      "corpus_sentiment": "positive",
+      "corpus_score": 0.107,
+      "corpus_count": 6,
+      "divergence_score": 0.054,
+      "signal_type": "consensus"
+    },
+    {
+      "entity": "Oil",
+      "category": "assets",
+      "tweet_sentiment": "negative",
+      "tweet_score": -0.11,
+      "tweet_count": 44,
+      "tweet_std": 0.277,
+      "corpus_sentiment": "positive",
+      "corpus_score": 0.108,
+      "corpus_count": 12,
+      "divergence_score": 0.218,
+      "signal_type": "consensus"
+    },
+    {
+      "entity": "CPI",
+      "category": "indicators",
+      "tweet_sentiment": "neutral",
+      "tweet_score": -0.009,
+      "tweet_count": 31,
+      "tweet_std": 0.312,
+      "corpus_sentiment": "positive",
+      "corpus_score": 0.103,
+      "corpus_count": 10,
+      "divergence_score": 0.111,
+      "signal_type": "consensus"
+    },
+    {
+      "entity": "Powell",
+      "category": "figures",
+      "tweet_sentiment": "positive",
+      "tweet_score": 0.117,
+      "tweet_count": 26,
+      "tweet_std": 0.298,
+      "corpus_sentiment": "positive",
+      "corpus_score": 0.219,
+      "corpus_count": 1,
+      "divergence_score": 0.101,
+      "signal_type": "consensus"
+    },
+    {
+      "entity": "ECB",
+      "category": "central_banks",
+      "tweet_sentiment": "neutral",
+      "tweet_score": 0.046,
+      "tweet_count": 15,
+      "tweet_std": 0.317,
+      "corpus_sentiment": "positive",
+      "corpus_score": 0.143,
+      "corpus_count": 6,
+      "divergence_score": 0.097,
+      "signal_type": "consensus"
+    },
+    {
+      "entity": "GDP",
+      "category": "indicators",
+      "tweet_sentiment": "neutral",
+      "tweet_score": -0.078,
+      "tweet_count": 13,
+      "tweet_std": 0.305,
+      "corpus_sentiment": "positive",
+      "corpus_score": 0.133,
+      "corpus_count": 9,
+      "divergence_score": 0.211,
+      "signal_type": "consensus"
+    },
+    {
+      "entity": "Equities",
+      "category": "assets",
+      "tweet_sentiment": "neutral",
+      "tweet_score": 0.051,
+      "tweet_count": 7,
+      "tweet_std": 0.219,
+      "corpus_sentiment": "neutral",
+      "corpus_score": 0.037,
+      "corpus_count": 12,
+      "divergence_score": 0.014,
+      "signal_type": "consensus"
+    },
+    {
+      "entity": "US Treasuries",
+      "category": "assets",
+      "tweet_sentiment": "positive",
+      "tweet_score": 0.102,
+      "tweet_count": 5,
+      "tweet_std": 0.305,
+      "corpus_sentiment": "neutral",
+      "corpus_score": 0.064,
+      "corpus_count": 4,
+      "divergence_score": 0.038,
+      "signal_type": "consensus"
+    },
+    {
+      "entity": "Williams",
+      "category": "figures",
+      "tweet_sentiment": "positive",
+      "tweet_score": 0.235,
+      "tweet_count": 3,
+      "tweet_std": 0.366,
+      "corpus_sentiment": "positive",
+      "corpus_score": 0.219,
+      "corpus_count": 1,
+      "divergence_score": 0.017,
+      "signal_type": "consensus"
+    },
+    {
+      "entity": "EUR",
+      "category": "assets",
+      "tweet_sentiment": "neutral",
+      "tweet_score": -0.082,
+      "tweet_count": 3,
+      "tweet_std": 0.315,
+      "corpus_sentiment": "neutral",
+      "corpus_score": 0.043,
+      "corpus_count": 11,
+      "divergence_score": 0.125,
+      "signal_type": "consensus"
+    },
+    {
+      "entity": "USD",
+      "category": "assets",
+      "tweet_sentiment": "negative",
+      "tweet_score": -0.146,
+      "tweet_count": 2,
+      "tweet_std": 0.176,
+      "corpus_sentiment": "neutral",
+      "corpus_score": 0.091,
+      "corpus_count": 6,
+      "divergence_score": 0.238,
+      "signal_type": "consensus"
+    },
+    {
+      "entity": "PPI",
+      "category": "indicators",
+      "tweet_sentiment": "negative",
+      "tweet_score": -0.242,
+      "tweet_count": 1,
+      "tweet_std": 0.0,
+      "corpus_sentiment": "neutral",
+      "corpus_score": 0.028,
+      "corpus_count": 4,
+      "divergence_score": 0.27,
+      "signal_type": "consensus"
+    }
+  ],
+  "divergences": [
+    {
+      "entity": "BoJ",
+      "category": "central_banks",
+      "tweet_sentiment": "negative",
+      "tweet_score": -0.147,
+      "tweet_count": 6,
+      "tweet_std": 0.334,
+      "corpus_sentiment": "positive",
+      "corpus_score": 0.219,
+      "corpus_count": 1,
+      "divergence_score": 0.366,
+      "signal_type": "divergence"
+    },
+    {
+      "entity": "Crypto",
+      "category": "assets",
+      "tweet_sentiment": "neutral",
+      "tweet_score": -0.074,
+      "tweet_count": 2,
+      "tweet_std": 0.005,
+      "corpus_sentiment": "negative",
+      "corpus_score": -0.4,
+      "corpus_count": 1,
+      "divergence_score": 0.327,
+      "signal_type": "divergence"
+    }
+  ],
+  "contested_in_tweets": [
+    {
+      "entity": "Williams",
+      "category": "figures",
+      "n_tweets": 3,
+      "mean_score": 0.235,
+      "std_score": 0.366,
+      "is_contested": true,
+      "label": "contested"
+    }
+  ],
+  "n_consensus": 13,
+  "n_divergences": 2,
+  "summary": {
+    "top_consensus": [
+      "Fed",
+      "ECB",
+      "Trump"
+    ],
+    "top_divergences": [
+      "BoJ",
+      "Crypto"
+    ]
+  }
+}
